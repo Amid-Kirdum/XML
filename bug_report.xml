@@ -1,1 +1,16 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
+  <ID>BR-001</ID>
+  <severity>trivial</severity>
+  <priority>low</priority>
+  <title>The tabs [Forex] and [ETF] of the widget “Trading instrument” overlap the block header 
+    "Execute your trades on our award-winning platform" into all languages, except SV,TH, ZN (license CYSEC) 
+    and ID, BG, ES, FR, PL, RU, VI (license FCA) on the main page </title>
+  <steps>
+    <step> 1. Navigate to anysite.com </step>
+    <step> 2. Scroll down to the widget “Trading instrument” </step> 
+  </steps>
+  <expected_result> The tabs [Forex] and [ETF] of the widget “Trading instrument” doesn't overlap the block header </expected_result>
+  <actual_result> The tabs [Forex] and [ETF] of the widget “Trading instrument” overlap the block header </actual_result>
+  <attachment> link </attachment> 
+</bug_report>
